@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "image": "../public/images/leo-aviator.PNG"
+    },
+    {
+        "id": 2,
+        "image": "../public/images/leo-catch-me-if-you-can.PNG"
+    },
+    {
+        "id": 3,
+        "image": "../public/images/leo-departed.PNG"
+    },
+    {
+        "id": 4,
+        "image": "../public/images/leo-django-unchained.PNG"
+    },
+    {
+        "id": 5,
+        "image": "../public/images/leo-great-gatsby.PNG"
+    },
+    {
+        "id": 6,
+        "image": "../public/images/leo-inception.PNG"
+    },
+    {
+        "id": 7,
+        "image": "../public/images/leo-quick-and-dead.PNG"
+    },
+    {
+        "id": 8,
+        "image": "../public/images/leo-revenant.PNG"
+    },
+    {
+        "id": 9,
+        "image": "../public/images/leo-romeo-and-juliet.PNG"
+    },
+    {
+        "id": 10,
+        "image": "../public/images/leo-shutter-island.PNG"
+    },
+    {
+        "id": 11,
+        "image": "../public/images/leo-titanic.PNG"
+    },
+    {
+        "id": 12,
+        "image": "../public/images/leo-wolf-of-wallstreet.PNG"
+    }
+]
