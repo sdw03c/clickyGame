@@ -2,61 +2,73 @@
   {
       "id": 1,
       "image": "https://assets3.thrillist.com/v1/image/1656306/size/tl-horizontal_main.jpg",
+      // "image": "/static/media/leo-aviator.487883f0.PNG",
       "count": 0
   },
   {
       "id": 2,
       "image": "https://assets3.thrillist.com/v1/image/1656311/size/tl-horizontal_main.jpg",
+      // "image": "/static/media/leo-catch-me-if-you-can.efd848ca.PNG",
       "count": 0
   },
   {
       "id": 3,
       "image": "https://assets3.thrillist.com/v1/image/1656314/size/tl-horizontal_main.jpg",
+    //   "image": "/static/media/leo-departed.6f0db8e1.PNG",
       "count": 0
   },
   {
       "id": 4,
       "image": "https://assets3.thrillist.com/v1/image/1656315/size/tl-horizontal_main.jpg",
+      //   "image": "/static/media/leo-django-unchained.adceb885.PNG",
       "count": 0
   },
   {
       "id": 5,
       "image": "https://www.indiewire.com/wp-content/uploads/2016/08/20140216-131646.jpg?w=780",
+      // "image": "/static/media/leo-great-gatsby.55a40342.PNG",
       "count": 0
   },
   {
       "id": 6,
       "image": "https://nofilmschool.com/sites/default/files/styles/article_wide/public/screen_shot_2018-10-26_at_8.12.30_am.png?itok=A9eOBHPw",
+      // "image": "/static/media/leo-inception.4ff20934.PNG",
       "count": 0
   },
   {
       "id": 7,
       "image": "https://assets3.thrillist.com/v1/image/1656323/size/tl-horizontal_main.jpg",
+    //  "image": "/static/media/leo-quick-and-dead.9169dd80.PNG",
       "count": 0
   },
   {
       "id": 8,
       "image": "https://assets3.thrillist.com/v1/image/1656324/size/tl-horizontal_main.jpg",
+    //   "image": "/static/media/leo-revenant.9646291f.PNG",
       "count": 0
   },
   {
       "id": 9,
       "image": "https://cdn.newsapi.com.au/image/v1/7a4862f579d9a7587af15784d59272f7",
+      // "image": "/static/media/leo-romeo-and-juliet.01f4bd6e.PNG",
       "count": 0
   },
   {
       "id": 10,
       "image": "https://assets3.thrillist.com/v1/image/1656327/size/tl-horizontal_main.jpg",
+    //   "image": "/static/media/leo-shutter-island.7fe473d0.PNG",
       "count": 0
   },
   {
       "id": 11,
       "image": "https://assets3.thrillist.com/v1/image/1656329/size/tl-horizontal_main.jpg",
+      // "image": "/static/media/leo-titanic.7e257fc0.PNG",
       "count": 0
   },
   {
       "id": 12,
       "image": "https://assets3.thrillist.com/v1/image/1656332/size/tl-horizontal_main.jpg",
+      // "image": "/static/media/leo-wolf-of-wallstreet.0be2573b.PNG",
       "count": 0
   }
 ]
