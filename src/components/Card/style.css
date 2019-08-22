@@ -1,0 +1,27 @@
+.card {
+  background: #fff;
+  height: 250px;
+  margin: 1rem;
+  position: relative;
+  width: 325px;
+  box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+  
+}
+
+.card > .img-container {
+  height: 100%;
+  text-align: center;
+  background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
+  radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);;
+}
+.card > .img-container > img {
+  width: 80%;
+  height: 90%;
+  padding: 5%
+}
+
+div {
+    display: block;
+}
+
+

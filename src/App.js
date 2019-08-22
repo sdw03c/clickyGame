@@ -1,110 +1,80 @@
 import React, {Component} from 'react';
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import Header from './components/Header'
 import Wrapper from './components/Wrapper'
 import Card from "./components/Card"
-import images from "../public/images/"
+import images from "./images.json"
+import whatever from './images/leo-titanic.PNG'
 import Footer from './components/Footer';
 import './App.css';
 
-
-
 class App extends Component{
-  state ={
-    currentScore: 0,
-    topScore: 0,
-    cards, 
-    images
-  }
-
-
-gameOver = () => {
-  if (this.state.currentScore > this.state.topScore){
-    this.setState({topScore: this.state.currentScore}, function(){
-      console.log(this.state.topScore);
-      console.log(topScore);
-    })
-  }
-  this.state.cards.forEach(card => {
-    this.setState({currentScore:0})
-    card.count = 0;
-    return true;
-  });
-}
-  randomizeCards = () => {
-    this.state.images.sort(() => Math.random() - 0.5)
-    return true;
-  }
-
-  clickCard = id => {
-    this.state.cards.find((card,i) => {
-      if(card.id === id){
-        if(cards[i].count === 0){
-          cards[i].count = cards[i].count + 1
-          this.setState({currentScore: this.state.score + 1}, function(){
-          console.log(this.state.currentScore)
-        })
-        this.randomizeCards();
-        return true
-      }
-      else{
-        this.gameOver();
-      }
+    state ={
+      currentScore: 0,
+      topScore: 0,
+      images 
+     // images
     }
-    })
-  }
-
-
-render() {
-  return(
-<div>
-  <Header currentScore={this.state.currentScore} topScore={this.state.score}>
-
-  </Header>
-  <Wrapper>
-   {this.state.cards.map (card => (
-    <Card
-      clickCard = {this.clickCard}
-      id = {card.id}
-      key = {card.id}
-      image={card.image}
-    />
-   ))}
-  </Wrapper>
-  <Footer>
-
-  </Footer>
-</div>
-  )
+    gameOver = () => {
+        if (this.state.currentScore > this.state.topScore){
+          this.setState({topScore: this.state.currentScore}, function(){
+            console.log(this.state.topScore);
+          })
+        }
+        this.state.images.forEach(card => {
+          this.setState({currentScore:0})
+          card.count = 0;
+          return true;
+        });
+        if (this.state.currentScore === 12){
+            // this.setState({topScore: this.state.currentScore}, function(){
+              alert("You won!!! :) Click on a Leo card to begin a new game!");
+             
+           }
+           else
+        alert("Sorry, you lost! :( Click on a Leo card to begin a new game.")
+      }
+      randomizeCards = () => {
+        this.state.images.sort(() => Math.random() - 0.5)
+        return true;
+      }
+      
+      clickImage = id => {
+        this.state.images.find((card,i) => {
+          if(card.id === id){
+            if(images[i].count === 0){
+                images[i].count = images[i].count + 1
+              this.setState({currentScore: this.state.currentScore + 1}, function(){
+              console.log(this.state.currentScore)
+            })
+            this.randomizeCards();
+            return true
+          }
+          else{
+            this.gameOver();
+          }
+        }
+        })
+      }
+  // Map over this.state.images and render a cardCard component for each card object
+    render() {
+        return (
+           <div>
+                <Header currentScore={this.state.currentScore} topScore={this.state.topScore}></Header>
+                <Wrapper>
+                {console.log(whatever)}
+                {this.state.images.map(card => (
+                    <Card
+                    clickImage={this.clickImage}
+                        id={card.id}
+                        key={card.id}
+                        image={card.image} />
+        ))}
+          </Wrapper>
+        <Footer></Footer>
+        </div>
+        );
+    }
 }
-}
-// function App() {
-//   return (
-//     <div className="App">
-//       <header className="App-header">
-//         <img src={logo} className="App-logo" alt="logo" />
-//         <p>
-//           Edit <code>src/App.js</code> and save to reload.
-//         </p>
-//         <a
-//           className="App-link"
-//           href="https://reactjs.org"
-//           target="_blank"
-//           rel="noopener noreferrer"
-//         >
-//           Learn React
-//         </a>
-//       </header>
-//       <Footer></Footer>
-//     </div>
-
-    
-//   );
-// }
-
-// render(){
-//   return(
-//   <Footer></Footer>)}
-  
 
 export default App;

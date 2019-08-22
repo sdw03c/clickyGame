@@ -1,25 +1,35 @@
 .jumbotron-backgroundImage {
-    background: #000 url("../img/backgroundImage.PNG") top center no-repeat;
-    background-size: cover;
-    height: 100% !important;
-    opacity: 0.9;
-    filter: alpha(opacity=60);
-    color: #fff;
+  background: #000 url("../../images/great-gatsby-background.jpg") top center no-repeat; 
+  background-size: cover;
+  height: 100% !important;
+  opacity: 0.9;
+  filter: alpha(opacity=80);
+  color: #fff;
 
-  }
-  div.transbox {
-    height: 100% !important;
-    background-color: black;
-    border: 1px solid black;
-    opacity: 0.7;
-    padding: 3rem ;
-    filter: alpha(opacity=60); /* For IE8 and earlier */
-  }
-  
-  div.transbox h1, h3 {
-    margin: 3%;
-    height: 100% !important;
-    font-weight: bold;
-    color: white;
-    text-align:center
-  }
+}
+div.transbox {
+  height: 100% !important;
+  background-color: black;
+  border: 1px solid black;
+  opacity: 0.7;
+  padding: 3rem ;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+div.transbox h1, h4 {
+  margin: 3%;
+  padding-top: 50px;
+  height: 100% !important;
+  font-weight: bold;
+  color: white;
+  text-align:center
+}
+
+span.navbar-brand{
+float: right !important;
+
+}
+
+nav{
+  padding: 15px !important
+}

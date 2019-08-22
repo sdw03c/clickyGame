@@ -1,50 +1,62 @@
 [
-    {
-        "id": 1,
-        "image": "../public/images/leo-aviator.PNG"
-    },
-    {
-        "id": 2,
-        "image": "../public/images/leo-catch-me-if-you-can.PNG"
-    },
-    {
-        "id": 3,
-        "image": "../public/images/leo-departed.PNG"
-    },
-    {
-        "id": 4,
-        "image": "../public/images/leo-django-unchained.PNG"
-    },
-    {
-        "id": 5,
-        "image": "../public/images/leo-great-gatsby.PNG"
-    },
-    {
-        "id": 6,
-        "image": "../public/images/leo-inception.PNG"
-    },
-    {
-        "id": 7,
-        "image": "../public/images/leo-quick-and-dead.PNG"
-    },
-    {
-        "id": 8,
-        "image": "../public/images/leo-revenant.PNG"
-    },
-    {
-        "id": 9,
-        "image": "../public/images/leo-romeo-and-juliet.PNG"
-    },
-    {
-        "id": 10,
-        "image": "../public/images/leo-shutter-island.PNG"
-    },
-    {
-        "id": 11,
-        "image": "../public/images/leo-titanic.PNG"
-    },
-    {
-        "id": 12,
-        "image": "../public/images/leo-wolf-of-wallstreet.PNG"
-    }
+  {
+      "id": 1,
+      "image": "/static/media/leo-aviator.487883f0.PNG",
+      "count": 0
+  },
+  {
+      "id": 2,
+      "image": "/static/media/leo-catch-me-if-you-can.efd848ca.PNG",
+      "count": 0
+  },
+  {
+      "id": 3,
+      "image": "/static/media/leo-departed.6f0db8e1.PNG",
+      "count": 0
+  },
+  {
+      "id": 4,
+      "image": "/static/media/leo-django-unchained.adceb885.PNG",
+      "count": 0
+  },
+  {
+      "id": 5,
+      "image": "/static/media/leo-great-gatsby.55a40342.PNG",
+      "count": 0
+  },
+  {
+      "id": 6,
+      "image": "/static/media/leo-inception.4ff20934.PNG",
+      "count": 0
+  },
+  {
+      "id": 7,
+      "image": "/static/media/leo-quick-and-dead.9169dd80.PNG",
+      "count": 0
+  },
+  {
+      "id": 8,
+      "image": "/static/media/leo-revenant.9646291f.PNG",
+      "count": 0
+  },
+  {
+      "id": 9,
+      "image": "/static/media/leo-romeo-and-juliet.01f4bd6e.PNG",
+      "count": 0
+  },
+  {
+      "id": 10,
+      "image": "/static/media/leo-shutter-island.7fe473d0.PNG",
+      "count": 0
+  },
+  {
+      "id": 11,
+      "image": "/static/media/leo-titanic.7e257fc0.PNG",
+      "count": 0
+  },
+  {
+      "id": 12,
+      "image": "/static/media/leo-wolf-of-wallstreet.0be2573b.PNG",
+      "count": 0
+  }
 ]
